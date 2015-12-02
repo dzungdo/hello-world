@@ -7,6 +7,7 @@ ENV UID 1001
 ENV USER apache
 ENV GROUP apache
 
+RUN groupadd $GROUP
 RUN useradd -u $UID -g $GROUP -m -s /bin/bash $USER
 
 RUN yum -y install httpd mod_ssl openssl
