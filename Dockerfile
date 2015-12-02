@@ -1,4 +1,4 @@
-FROM rhel7
+FROM rhel:6
 
 MAINTAINER "Dzung Do" <ddo@redhat.com>
 
